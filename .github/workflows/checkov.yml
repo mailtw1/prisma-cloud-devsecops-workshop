@@ -20,7 +20,7 @@ jobs:
       with:
         directory: code/
         soft_fail: true
-        api-key: ${{ secrets.BC_API_KEY }}
+        api-key: ${{ secrets.MY_API_KEY }}
       env:
         PRISMA_API_URL: https://api.eu.prismacloud.io
         
